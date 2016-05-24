@@ -1,0 +1,101 @@
+.com_logo{vertical-align: middle;margin-right: 10px;width:32px;height: 32px;}
+h2.title{font-size: 24px;font-weight: bold;margin:30px 0 25px 0px;}
+.crumbs{padding-bottom:10px; border-bottom: 1px solid #ededed;}
+.crumbs a.crumbs_nav_item{font-size:18px;color: #333;}
+.content{border: 1px solid #ededed;margin-top: 20px;}
+.seperate_line{display: inline-block;margin: 0 5px;height: 6px;font-size: 18px;}
+
+ul.user_tab li{float: left;border-right: 1px solid #ededed;border-bottom: 1px solid #ededed;position: relative;}
+ul.user_tab li a{padding: 0 40px;display: block;height: 48px;line-height: 48px;color: #333;font-size:18px;}
+ul.user_tab li.current{border-bottom: 1px solid #fff;cursor:default;}
+ul.user_tab li.current a:before{top:-1px;right:-1px;left:-1px;height: 4px;background:#2d6ac8;}
+ul.user_tab li.current a:after{right: 0;bottom: -1px;left: 0;height: 1px;background: #fff;}
+ul.user_tab li.current a:before,ul.nav li.current a:after{position: absolute;;content: '';}
+ul.tab_item{margin:22px 20px 0px 20px;}
+li.item{color:#333;font-size: 18px;padding:20px 10px;border-bottom: 1px solid #ededed;}
+li.item p.time{color: #999;}
+li.item div.right a{padding:0 8px;display: inline-block;border-right: 1px solid #333;}
+li.item a{color: #333;}
+li.item a:hover{color: #2d6ac8;}
+li.item h4.title{margin-bottom: 10px;}
+li.item div.right{margin-top: 35px;}
+
+.btn[disabled]{cursor: not-allowed;pointer-events: none;opacity: .6;color: #fff;-ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=60)';filter: alpha(opacity=60);}
+/**********************************名单管理样式***********************************/
+h3.title{font-size: 18px;margin:20px 0;}
+.content_box{padding:0 20px;}
+.attendees_toolbar div.left_top{margin-bottom: 18px;}
+.attendees_toolbar input, .attendees_toolbar button, .attendees_toolbar select{border:1px solid #eeeeee;}
+.attendees_toolbar .form_control{width: 290px;height: 38px;}
+.attendees_toolbar select.form_control{width:90px;height: 50px;}
+.attendees_toolbar .form_control, .btn{vertical-align: middle;margin-right: 10px;}
+.attendees_toolbar .form_control{font-size: 14px;line-height: 1.4;padding: 5px 10px;-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;color: #707070;border-radius: 2px;background-color: #fff;}
+.attendees_toolbar .form_control#attendees_search_key{padding: 12px 0 0 10px\9;}
+.attendees_toolbar .btn_primary{height: 50px;padding: 5px 20px;text-align: right}
+.attendees_toolbar div.right .btn_primary{background:#86afee;border-color: #86afee;}
+.attendees_toolbar div.right .btn_primary:hover,.attendees_toolbar div.left .btn_primary:hover{background: #2d6ac8;border-radius:#2d6ac8;}
+.attendees_toolbar div.left button.btn_primary{text-align: center;}
+.attendees_toolbar .last{margin-right:0px}
+.attendees_toolbar i.attendees_admin,i.attendees_notice,i.attendees_export{width:20px;height: 18px;vertical-align: middle;margin-right: 5px;}
+.attendees_toolbar i.attendees_admin{background-position: -260px -51px;}
+.attendees_toolbar i.attendees_notice{background-position: -286px -51px;}
+.attendees_toolbar i.attendees_export{background-position: -313px -51px;}
+.attendees_toolbar{margin-bottom: 30px;}
+.attendees_toolbar div.checkAll label{cursor: pointer;display: inline-block;font-size: 16px;}
+.attendees_toolbar div.checkAll label input,.list_body input{border: 1px #eee solid ;width:33px;height: 33px;margin-right: 10px;background:#fff;display: inline-block;-webkit-appearance: none;vertical-align:middle;}
+#attendees_selected_prompt{color: #333;font-size: 14px;margin-left: 10px;margin-top: 6px;}
+@media screen and (-webkit-min-device-pixel-ratio: 0){
+	.attendees_toolbar input[type=checkbox]:checked::before,.list_body input[type=checkbox]:checked::before {
+	    display: block;
+	    width: 100%;
+	    height: 100%;
+	    content: '';
+	    background-color: #2d6ac8;
+	    background-image: url(../images/checked.jpg);
+	    background-repeat: no-repeat;
+	    background-position: 50% 50%;
+	}
+}
+.table td {word-break: break-word;}
+div.right .text_primary{padding:0px 5px;color: #2d6ac8}
+.list_body .check_td{padding: 0;}
+.table, .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {border: 1px solid #ddd;}
+.table, legend {width: 100%;margin-bottom: 17px;}
+table {border-spacing: 0;border-collapse: collapse;max-width: 100%;background-color: transparent;}
+.table th {font-weight: 400;color: #a0a0a0;}
+.table td,.table th {padding: 14px 8px;text-align: center;vertical-align: middle;}
+span.label{background:#999;color: #fff;padding: 5px 10px;border-radius: 2px;min-width:62px;display: inline-block;}
+span.label.active{background:#2d6ac8;}
+
+/**********************************权限设置样式***********************************/
+a.authority_manage{border-style: solid;border-color: #104ca8;border-width: 0px 0px 0px 1px;display: block;line-height: 60px;float: right;padding: 0 20px;}
+.header .authority_manage:hover,.header a.current{background: #285fb1;}
+.authority_container.container{position: relative;}
+.authority_container h2.title{border-bottom: 1px solid #ededed;padding-bottom: 10px;}
+.show_lines{position: absolute;right: 0;top:0px;color: #5a5a5a;}
+.show_lines span{vertical-align: middle;display: inline-block;}
+.show_lines select{border: 1px solid #eeeeee;width:58px;height: 32px;background: #fff;line-height: 32px;padding:3px 5px;}
+.authority_content.content{padding: 20px 20px 0px 20px;}
+.authority_content a.btn_primary.left_right{padding:0px 20px;line-height: 50px;border:none;}
+.authority_content .attendees_toolbar select.form_control{width:120px;}
+.authority_content .list_body{color: #494848;font-size: 16px;}
+.authority_content td.text_left{text-align: left;}
+.authority_content span.label{background: none;cursor: pointer;min-width: 0px;}
+.authority_content span.label.label_blue{background: #285fb1;color: #fff}
+.authority_content span.label.label_grey{background:#999;color: #fff}
+.authority_content span.label.label_orange{background:#ff7900;color: #fff}
+.authority_content span.label.label_pass_grey,span.label.label_action_grey{color: #494848}
+.authority_content span.label.label_pass_green{color: #73b567}
+.authority_content span.label.label_notPass{color: #de7959}
+.authority_content span.label.label_action_blue{color: #285fb1}
+/*控制翻页居中*/
+.authority_content div.pager{text-align: center}
+.authority_content ul.yiiPager{display: inline-block;width:auto;margin-top: 20px;margin-bottom: 0px;}
+
+a.icon.infor_icon{position: relative;}
+.popover{position: absolute;background-color: #fff;color: #333;font-size: 12px;border:1px solid #e7e7e7;box-shadow: 1px 1px 2px rgba(0,0,0,0.1);min-width: 350px;text-align: left;max-width: 900px;top:50%;right: 31px;display: none;border-radius: 5px;}
+.popover h5.tit{background-color: #f7f7f7;height: 34px;line-height: 34px;color: #333;border-bottom: 1px solid #ebebeb;text-align: center;}
+.popover .popover_in{padding:10px 15px; }
+.popover .msg_list{margin-bottom: 5px;}
+.popover .msg_list span{color: #000;font-weight: bold;}
+i.icon_triggle_right{background-position: -89px -136px;width:11px;height: 20px;position: absolute;top:50%;margin-top: -10px;right: -11px;}

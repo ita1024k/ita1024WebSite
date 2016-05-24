@@ -1,0 +1,192 @@
+.creat_body{border:1px solid #eee;font-size: 16px;background:#fff;margin-top: 30px;padding:0px 30px 30px 30px;}
+.creat_label{background:#3d6ac2;color: #fff;padding: 15px 0px;width: 126px;text-align: center;font-size: 18px;}
+.form_group{margin-top: 30px;}
+.record_label,.ac_label{color: #333;line-height: 52px;float: left;height: 52px;}
+.form_control{border:1px solid #eee;height: 42px;background:#fff;border-radius: 2px;line-height: 1.4;padding: 5px 10px;vertical-align: middle;font-size: 16px;width:1020px;margin-left: 93px;display: block;}
+.form_control_st{border:1px solid #eee;height: 42px;background:#fff;border-radius: 2px;line-height: 1.4;padding: 5px 10px;vertical-align: middle;font-size: 16px;width:165px;margin-left: 0px;}
+.ac_place .form_control{border:1px solid #eee;height: 42px;margin-top:10px;background:#fff;border-radius: 2px;line-height: 1.4;padding: 5px 10px;vertical-align: middle;font-size: 16px;width:1020px;margin-left: 0px;display: block;float: left;}
+.editor_box.form_control{border:none;height: auto;padding: 0;width:1040px;}
+em.icon.need_icon{background-position: -206px -71px;margin-left: 4px;width:10px;height: 11px;}
+.logo_image{width:472px;height: auto;}
+.record_poster{margin-left: 93px;}
+.record_poster div.left.poster_preview{margin-right: 60px;}
+.record_poster div.left.media_body{width:513px;}
+
+.btn_upload{cursor: pointer;color: #fff;background:#ee8031;width: 180px;border-radius: 2px;height: 46px;line-height: 46px;position: relative;text-align: center;margin-top: 196px;}
+.btn_upload:hover{background: #f59d5e;}
+input[id='poster_input']{cursor: pointer;height: 46px;left: 0;position: absolute;top: 0;width: 100%; filter:alpha(opacity=0);-moz-opacity:0; opacity: 0;}
+
+.btn_upload i.upload_icon{background-position: -97px -74px;width:24px;height: 28px;vertical-align: -8px;}
+.submit_btn{text-align: center;margin-top: 59px;margin-bottom: 30px;}
+.event-create-ticket-config .submit_btn{text-align: center;margin-top: 30px;}
+div.submit_btn .btn{font-size: 18px;border-radius: 2px;height: 54px;line-height: 54px;}
+div.submit_btn .btn_primary{background:#2d6ac8;color: #fff;width: 270px;margin-right: 30px;}
+div.submit_btn .btn_primary:hover{background: #5289dd;}
+div.submit_btn .btn_default:hover{border:1px solid #2d6ac8;}
+div.submit_btn .btn_default{width: 152px;height: 53px;line-height: 53px;display: inline-block;}
+/*编辑器*/
+#edui1_bottombar { display: none!important}
+#ueditor_0 body{font-family: '微软雅黑'!important}
+/*上传*/
+.poster_preview{width:472px;height:285px;overflow: hidden;background: #dedede;}
+.logo_image{max-width: 100%;height:auto;margin: 0 auto;display: block;}
+#popBox_tips .popBox_content {width:auto;}
+#popBox_tips .popBox_content h4.popBox_title{text-align: center;}
+/*******************************发布活动********************************/
+.form_control_all {background:#fff;line-height: 1.4;vertical-align: middle;font-size: 16px;width:1020px;margin-left: 93px;display: block;}
+.delay_date{margin-bottom: 12px;font-size: 18px;}
+.ac_radio input{margin-right: 10px;-webkit-appearance: none;vertical-align: sub;-webkit-user-select: none;vertical-align: -3px;}
+.icon_big_arrow{background-position: -264px -73px;width:28px;height: 24px;margin:45px 12px 0px 12px;}
+.form_date div.tit{color: #333;margin-bottom: 10px;}
+.icon_calendar{background-position: -205px -85px;width:24px;height: 24px;position: absolute;left:13px;top:13px;}
+.form_date .date_content {position: relative;}
+
+i.icon.icon_clock{background-position: -244px -77px;width: 14px;height: 14px;position: absolute;top:19px;left:240px;}
+.ac_add_label{position: relative;margin-left: 93px;}
+.ac_add_label_btn{background: #f6f6f6;border:1px solid #ccc;width:54px;height: 52px;overflow: hidden;float: left;}
+.icon_ac_add{background-position: -296px -71px;width:28px;height: 28px;}
+.ac_add_label_btn:hover{border:1px solid #ccc;}
+.ac_add_label_modal {position: absolute;z-index: 1000;top: 51px;left: 0;max-width:624px;padding: 20px 10px 0 20px;border:1px solid #ccc;background: #fff;-webkit-box-shadow: 1px 1px 1px #c9c9c9;box-shadow: 1px 1px 1px #c9c9c9;}
+.ac_add_label_modal li:active, .ac_add_label_modal li:hover {background: #eee;}
+.ac_add_label_modal li {float: left;margin-right: 10px;margin-bottom: 20px;cursor: pointer;color: #a0a0a0;border: 1px dashed #a0a0a0;padding: 4px 20px;}
+.text_muted{margin-left: 30px;}
+.ac_privacy_radio label{color: #333;}
+.place_date .ac_label,.ac_privacy_label{line-height: 1.4;height: auto;}
+.ac_privacy_radio{margin-left: 93px;}
+.ac_add_item{cursor: pointer;}
+.ac_add_item_short:hover,.ac_add_item .aside .btn:hover{background: #e6e6e6;border:1px solid #2d6ac8;}
+.ac_add_item .text_muted {position: relative;top: -20px;text-align: center;}
+.icon_add_primary{background-position: -150px -117px;width:21px;height: 21px;vertical-align: -5px;margin-right: 10px;}
+.ac_add_item.creat_body{padding-bottom: 0px;}
+.ac_sign_form{min-height: 518px;margin-right: 20px;}
+.ac_sign_form form{margin-bottom: 5px;}
+.ac_sign_form h3 {margin-top: 30px;margin-bottom: 20px;}
+.ac_sign_form h3 em{color:#e7233a;}
+.ac_sign_required {padding-top: 20px;padding-bottom: 10px;border-top: 1px solid #eee;border-bottom: 1px solid #eee;}
+.ac_sign_required .form_group {margin-bottom: 10px;margin-top: 0px;}
+.ac_sign_required .square_icon_checked{cursor: not-allowed;}
+.square_icon_check,.square_icon_checked{width:18px;height: 18px;background-position: -175px -118px;-webkit-appearance: none;-webkit-user-select: none;vertical-align: middle;margin-right:15px;}
+.square_icon_check{background:transparent;border:1px solid #a8a7a8;width:18px;height: 18px;}
+.ac_sign_required label:after ,.ac_template_form_items label:after{font-family: 'Helvetica Neue','宋体';margin-left: 15px;content: '|';}
+.ac_sign_required label+span {display: inline-block;width:66px;margin-right: 20px;margin-left: 12px;}
+.ac_sign_required .form_control{width:655px;display: inline-block;margin-left: 0px;cursor: not-allowed;}
+.ac_sign_required input[type='text'][disabled], .ac_sign_required input[type='text'][disabled]:hover {border: 1px solid #eee}
+.ac_sign_form .form_actions{padding-left:20px;margin-top:20px;}
+.ac_add_item .aside{width: 222px;margin-top: 76px;padding-top: 10px;padding-right: 10px;padding-left: 10px;border: 1px solid #e8e8e8;border-radius: 4px;}
+.ac_add_item .aside h3 {font-size: 14px;margin-top: 0;padding-bottom: 10px;padding-left: 10px;border-bottom: 1px solid #eee;}
+.ac_add_item .aside .btn {font-size: 14px;height: 32px;padding-left: 4px;text-align: left;color: #5a5a5a;border: 1px solid #e7e7e7;border-radius: 0;background: #f6f6f6;width: 100%;margin-bottom: 10px;}
+.icon_btn_add{background-position: -232px -94px;width:14px;height: 14px;margin-right: 5px;margin-left: 35px;}
+.ac_template_form_items label {-webkit-user-select: none;-moz-user-select: none;user-select: none;-o-user-select: none;display: inline-block;margin-bottom: 5px;}
+.ac_template_form_items .form_control.form_control_type{margin-left: 15px; width: 140px;display: inline-block;}
+.ac_template_form_items .form_control.form_control_tips{width:518px;display: inline-block;margin-left: 10px;}
+.icon_trash{margin-left: 15px;}
+.form_actions.submit_btn{margin-top: 40px;}
+#ac_toggle {font-size: 14px;padding:10px 22px;border-color: #eee;border-radius: 0;background: 0 0;margin: 0 5px;border-width: 1px 1px 0px 1px;border-style: solid;display: inline-block;}
+.icon_top_arrow{background-position: -251px -96px;width:17px;height: 11px;margin-right: 5px;}
+.btn_add_primary {margin-left:50px;color: #066acf;font-size: 16px;width: 194px;padding-top: 13px;padding-bottom: 13px;border-color: #dddddd;background: #dddddd;-webkit-user-select: none;display: inline-block;cursor: pointer;user-select: none;white-space: nowrap;border: 1px solid transparent;touch-action: manipulation;-o-user-select: none;
+border-radius: 2px;}
+.spaceLine{width: 100%;border-bottom:1px solid #2d6ac8;margin: 10px 0px;}
+table.event-create-ticket-config  {display: table;width: 100%;table-layout: fixed;margin-bottom: 20px;border:1px solid #eee;}
+table.event-create-ticket-config _edit.event-create-ticket-config {border:none;}
+table.event-create-ticket-config  th {font-weight: 400;padding: 0;text-align: center;}
+table.ac_ticket_thumbs_header th:first-child div {border-left: 1px solid #dcdcdc;}
+table.event-create-ticket-config  thead th div {color: #999;background: #f6f6f6;}
+table.event-create-ticket-config  th div:after{position: absolute;top: 16px;right: 0;width: 1px;height: 19px;content: '';background: #eee;}
+table.event-create-ticket-config  th div.ac_delete_ticket:after{width: 0;}
+table.ac_ticket_thumbs_header th div {line-height: 48px;position: relative;border-top: 1px solid #dcdcdc;border-bottom: 1px solid #999;}
+table.event-create-ticket-config  th div {line-height: 48px;position: relative;}
+.event-create-ticket-config  th input {padding:8px 0px;font-size:16px;color:#333;overflow: hidden;text-align: center;white-space: nowrap;text-overflow: ellipsis;border: 1px solid #eee;}
+.event-create-ticket-config  em.show{font-weight: 400;color: #ff4c00;}
+.ac_delete_ticket span{width:100%;cursor: pointer;display: block;}
+.event-create-ticket-config{display: none}
+.ac_create_ticket_edit .event-create-ticket-config{display: block}
+.event-create-ticket-config label {width: 66px;display: inline-block;color: #333;}
+.event-create-ticket-config .form_control{width: 766px;}
+.event-create-ticket-config  label.ac_create_checkbox{width: auto;border:none;line-height:52px;padding: 0;display: block;}
+.event-create-ticket-config  label.ac_create_checkbox .square_icon_check{vertical-align: middle;}
+input[type='text']:hover,select:hover{border:1px solid #2d6ac8;}
+input[type='text']:focus,select:focus{border:1px solid #2d6ac8;}
+input[type='text'][disabled],select[disabled]{border:none;}
+input[type='text'][disabled]:hover,select[disabled]:hover{border:none;}
+#select_province,#select_city{width: 202px;padding-left:20px;color: #999;margin-left: 0;display: inline-block;margin-left:6px;float: left;text-align: left;}
+#select_province,#select_city,#event_start_time,#event_end_time{height: 54px;border: 1px solid #eee;border-radius: 2px;display: inline-block;margin-left: 0;margin-right:10px;background: #fff;position: relative;float: left;}
+#event_start_time,#event_end_time{float: none}
+.event_create .bootstrap_select .filter_option:after {float: right;margin-top: 7px;content: '';}
+#select_province,#select_city,#event_start_time,#event_end_time{padding-bottom:15px\9;}
+#ac_start_date,#ac_end_date{line-height: 42px;}
+
+
+.form_date .bootstrap-select{width: 153px;padding-left: 45px;color: #999;margin-left: 0;display: inline-block;margin-left:6px;height: 54px;}
+
+/*****************************************详细地址*****************************************/
+input[name='Address']{width:595px;display: inline-block;float: left;margin-right: 0;margin-left: 0}
+/*插件*/
+.ac_place .form_control_all{width:1045px;}
+.ac_place .form-control,.form_date .form-control{border: 1px solid #eee;border-radius: 2px;display: inline-block;margin-left: 0;margin-right:10px;background: #fff;position: relative;float: left;}
+.form_date .form-control{float: none}
+.ac_place .form-control:hover,.form_date .form-control:hover{border-color: #2d6ac8}
+.ac_place .btn,.form_date .btn{text-align: left;padding: 14px 10px;height:54px;width: 200px;font-size: 16px;vertical-align: middle;line-height: 1.4;background: 0 0;cursor: pointer;user-select: none;white-space: nowrap;border: 1px solid transparent;touch-action: manipulation;-o-user-select: none;}
+.form_date .btn{width: 153px;color: #999;margin-left: 0;display: inline-block;}
+.ac_place .dropdown-menu,.form_date .dropdown-menu{position: absolute;top:54px;left: 0;display:none;border:1px solid #eee;border-top:none;background: #fff;-webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.1);box-shadow: 1px 1px 2px rgba(0,0,0,.1);z-index: 1000;width:100%;margin-left: -1px;margin-top: 1px;}
+.ac_place .dropdown-menu ul.inner,.form_date .dropdown-menu ul.inner{width:100%;max-height: 242px;overflow: auto;}
+
+.ac_place .bootstrap-select .dropdown-menu li a {padding-left: 10px;cursor: pointer;color: #333;}
+.form_date .bootstrap-select .dropdown-menu li a{padding-left: 30px;cursor: pointer;color: #333;}
+.ac_place .bootstrap-select .dropdown-menu li a:focus,.ac_place .bootstrap-select .dropdown-menu li a:hover {background: #e5e5e5;}
+.ac_place .dropdown-menu li a,.form_date .dropdown-menu li a{font-weight: 400;display: block;clear: both;outline: 0;}
+.ac_place .bootstrap-select .filter-option:after ,.form_date .bootstrap-select .filter-option:after{float: right;margin-top: 7px;content: '';width: 17px;height: 9px;background-image: url(../images/icon.png);background-position: -222px -73px;}
+.ac_place .bootstrap-select.open .filter-option:after,.form_date .bootstrap-select.open .filter-option:after {-webkit-transform: rotate(180deg);-o-transform: rotate(180deg);-ms-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);}
+.form_date input.form_control ,select.ac_time{width: 153px;padding-left: 45px;color: #999;margin-left: 0;display: inline-block;}
+.form_date .bootstrap-select{margin-left:6px;height: 52px;}
+.form_date .bootstrap-select:before { position: absolute;top: 20px;left: 20px;content: '';pointer-events: none;width: 16px;height: 16px;background-image: url(../images/icon.png);background-position: -244px -77px;}
+
+/*添加标签*/
+.ac_add_label_modal li.active{background: #eee;}
+.ac_add_label_list{overflow: hidden;padding-top: 5px;margin-left: 64px;}
+.ac_add_label_list li {position: relative;background: #eee;list-style: none;}
+.ac_add_label_list li {color: #a0a0a0;border: 1px dashed #a0a0a0;padding: 4px 20px;float: left;margin-right: 15px;margin-top: 2px;}
+.ac_add_label_list .icon_close{position: absolute;top:-5px;right: -10px;}
+.ac_add_label_list .ac_add_label_tips{color: #ff5a49;font-size: 14px;margin-top:7px;display: inline-block;}
+
+/*自定义栏位*/
+.ac_create_sign_select {margin-top: 5px;}
+.ac_sign_form .form_group>div {width: 537px;padding-top: 10px; padding-left: 278px;}
+.ac_sign_form .ac_add_label_btn{float: none;}
+.ac_sign_form .icon_close{position: absolute;top:-5px;left: 108px;}
+.ac_create_sign_select div{position: relative;float: left;margin-right: 10px;margin-bottom: 10px;}
+.ac_sign_form .ac_create_sign_select input.form_control_type{margin-left: 0;width:100px;}
+/*提交表单预览*/
+#popBox_Userview .popBox_content{width:800px;margin-left: -400px;top:100px;}
+.header_label{font-size: 14px;line-height: 1.4;display: inline-block;padding: 3px 6px;vertical-align: baseline;white-space: nowrap;color: #fff;background-color: #999;}
+.header_label {background-color: #f3900d;}
+#popBox_Userview .popBox_body{max-height:430px;min-height:420px;margin-bottom:5px;overflow-x:hidden;padding: 15px;position: relative;}
+#popBox_Userview .page_header{margin:0px 10px ;}
+.modal_footer.submit_btn{margin-top: 15px;padding: 14px 15px 15px;text-align: right;border-top:1px solid #eee;margin-bottom: 0px;}
+.modal_footer.submit_btn .btn_default{font-size: 16px;width:70px;height: 30px;line-height: 30px;text-align: center;}
+.modal_footer .btn_default:focus, .modal_footer .btn_default:hover {color: #2d6ac8;border-color: #2d6ac8;}
+#popBox_Userview .popBox_content h4.popBox_title {font-size: 20px;line-height:50px;padding-left: 20px;margin-top: 15px;border-bottom: 1px solid #eee;}
+#popBox_Userview .popBox_content .control_label{font-weight: bold;color: #000;}
+#popBox_Userview .control_group{margin: 10px 0px;}
+#popBox_Userview .popBox_content .controls{margin-top:5px;}
+#popBox_Userview .popBox_content .controls input[type='text']{border:1px solid #eee;background-color: #ebebe4;width:300px;line-height: 18px;padding: 5px;}
+.input_xxlarge{width:510px;}
+.input_xlarge{width:270px;}
+.input_large{width: 210px;}
+.input_small{width: 110px;}
+.input_mini{width: 90px;}
+.input_medium{width: 150px;}
+div.input_xxlarge,div.input_xlarge,div.input_large,div.input_small,div.input_mini,div.input_medium{float: left;margin:0px 10px 8px 0px;font-size: 14px;}
+
+
+#popBox_Userview .popBox_content .controls textarea{border:1px solid #eee;width:500px;padding: 10px;}
+.workingLifeTime label,div.controls label{display: inline-block;}
+.workingLifeTime label{margin:0px 10px 8px 0px;}
+div.controls input.icon{width:18px;height: 18px;margin-right: 10px;-webkit-appearance:none;vertical-align: sub;-webkit-user-select: none;}
+div.controls.form_valid_error_msg,div.controls.workingLifeTime{width:740px;}
+div.controls .ctl_prompt{margin-top: 0;color: #000;margin-bottom: 5px;}
+/*验证*/
+#ac_template_form_items .help_inline {border-color: #ff4c00;}
+.ac_create_ticket  .ac_creat_ticket_config{display: none;}
+.ac_create_ticket.ac_create_ticket_edit  .ac_creat_ticket_config{display: block;}
+
+

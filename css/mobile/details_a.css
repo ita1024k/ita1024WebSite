@@ -1,0 +1,63 @@
+.event_msg{padding:10px;}
+img.details_banner{display: block;width: 100%;height: auto;}
+.aside {padding-top:10px;padding-bottom:55px;}
+.aside img {width: 100%;display: block;}
+.event_title{color: #333;font-size: 3.4rem;line-height: 1.4;font-weight: 600;padding:10px 0px;}
+.event_host .host_name{font-size: 2.4rem;color: #066acf;font-weight: 600;}
+.event_host .host_name img{vertical-align:bottom;width: 6%;height: auto;margin-right: 1.58%;}
+.event_host .btn{background-color: #3f89e4;font-size: 2.4rem;padding:1.63%;float: right;}
+.event_host {padding-bottom: 3.9%;border-bottom: 1px solid #ededed;}
+.event_info>div{color: #999;font-size:14px;padding:10px 0px;border-bottom: 1px solid #ededed;padding-left: 22px;}
+.event_info>div span{display: inline-block;}
+.event_content{padding: 4.3% 10px;color: #333;font-size: 2.4rem;line-height: 1.4;border-bottom: 1px solid #ededed;margin-bottom: 4.3%;overflow-x: hidden;word-wrap: break-word;word-break: break-all;}
+.event_content table{margin-bottom:10px;width:100%;border-spacing: 0;border-collapse:collapse;box-sizing:border-box;}
+.event_content td, .event_content th {height: 34px;padding: 0 5px;border: 1px solid #666;background: #fff;box-sizing:border-box;word-wrap: break-word;word-break: break-all;box-sizing:border-box;}
+.event_content img{width:100%;display: block;}
+.long_btn{font-size: 18px;width:100%;text-align: center;display: block;height: 40px;line-height: 40px;color: #fff;background-color: #10489e;border-radius: 0;}
+.share_btn{color: #10489e;background-color: #fff;}
+
+.fixed_bar{position: fixed;width:100%;bottom: 0;left: 0;border-top:1px solid #ededed;z-index: 10;}
+
+.shareBox .pop_body{padding:3.75% 10px;text-align: center;}
+.shareBox .pop_body a{display: inline-block;width: 16.375%;max-width:90px;overflow: hidden;height: auto;}
+.shareBox .pop_body .share_wx{margin-right: 10.15625%;}
+.shareBox .pop_body a img{width: 100%;height: auto;}
+a.icon_top{bottom:60px;}
+.ticketBox .media{padding:10px;position: relative;border-bottom: 1px solid #ededed;}
+.ticketBox .media img.left{width:115px;height: auto;margin-right: 10px;}
+.ticketBox .media_body{margin-left: 125px; }
+.ticketBox .media_title{font-size:15px;height: 34px;line-height: 17px;overflow: hidden;text-overflow:ellipsis;display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;}
+.ticketBox .media_body .media_time{font-size: 12px;line-height: 1.2;position: absolute;bottom: 10px;padding-right: 10px;}
+.ticketBox .pop_body{margin-bottom: 28px;max-height: 310px;overflow-y: auto;}
+.tickets_list li{margin-bottom: 10px;}
+.tickets_list_item{border:1px solid #999;padding:8px;}
+.tickets_list_item em{font-size:16px; color:#333;font-weight: 600;}
+.tips_1{font-size: 13px;padding-left: 5px;}
+.tips_2{font-size: 12px;margin-top: 3px;}
+i.checked_triangle_icon.hide{display: none;}
+.tickets_list li.checked{position: relative;}
+.tickets_list li.checked .tickets_list_item{border-color: #066acf;}
+.ticketBox .long_btn{position: fixed;bottom: 0;left: 0;font-size: 18px;height: 40px;line-height: 40px;padding:0;border-radius: 0;}
+
+.short_btn{font-size: 3.2rem;background:#10489e;}
+.short_btn{padding:2.25% 10%;}
+.default_btn{background:#fff;color: #10489e;font-size: 3.2rem;padding:2.25% 10%;}
+
+.join_form .pop_body{font-size: 14px;}
+.join_form .popBox_title,.contact_host .popBox_title{background:#10489e;font-size: 18px;color: #fff;line-height: 2;font-weight: normal;}
+.control_group{margin-bottom: 10px;}
+.control_group>.control_label{margin-bottom: 3px;display: inline-block;font-size: 16px;}
+.control_group .controls label{display: inline-block;margin-right: 16px;margin-bottom: 10px;}
+.control_group.radio_group div.controls{margin-top: 5px;}
+div.controls input.join_form_input, div.controls textarea.join_form_input {height: 20px;line-height: 20px;border: 1px solid #eee;padding: 5px 2%;width:96%;font-size: 14px;font-family: microsoft yahei,"΢���ź�",arial;}
+div.controls textarea.join_form_input{line-height: 1.2;height: 40px;resize:none;}
+.radio_list label input.icon {margin-right: 3px;-webkit-appearance: none;vertical-align: -6px;-webkit-user-select: none;}
+.form_actions{padding-bottom: 10px;background:#fff;border-top:1px solid #eee;padding-top: 10px;}
+.form_actions a{float: right;margin-right: 10px;}
+.contact_host .pop_body{padding:20px;}
+.contact_host .pop_content{width:90%;margin:0 auto;top:30%;bottom: auto;}
+.contact_host .btn_right a{float: right}
+.contact_host textarea{width: 96%;padding:2%;border:1px solid #ededed;resize:none;overflow: auto;outline: none;font-size: 14px;line-height: 1.4;border-radius: 2px;background:#fff;-webkit-appearance:none;height: 86px;margin-bottom: 15px;}
+#join_btn_non {
+    background: #aaaaaa;
+}

@@ -1,0 +1,13 @@
+.login_blue{background: #2d6ac8;width:100%;height: auto;padding:72px 0 194px 0;}
+.login_blue img{width:174px;height: 73px;margin:0 auto;display: block;}
+.login_box{width:690px;position: absolute;top:165px;left:50%;margin-left: -345px;background: #fff;border:1px solid #eee;padding:48px 0 72px 0;border-radius: 3px;font-size: 16px;}
+.login_box .apply_way{padding:0 12px 0 22px;width:262px;}
+.login_box .apply_way p.des{margin:42px 0 46px 0;}
+.login_line{background: url(../images/login_line.png) no-repeat;width:19px;height: 233px;}
+.form_box{padding:0 47px 0 55px;width:272px;}
+.form_group{margin-bottom:15px;}
+.form_group .form_control{width:252px;padding: 10px;height: 25px;background: #d6d6d6;border-radius: 2px;font-size: 16px;}
+div.form_box a.blue{margin-top: 10px;display: inline-block;}
+#login_btn.btn_primary{height: 44px;border-color: #2d6ac8;display: block;width:100%;line-height: 44px;margin-top: 10px;}
+#login_form{position: relative;}
+.error_tips{color:#d57049;display: none;position: absolute;left: 0;margin-left: 20px;top:0;margin-top: -30px;background-position:0 -106px;width:125px;height: 29px;font-size: 12px;line-height: 23px;padding:0 10px;text-align: center;}

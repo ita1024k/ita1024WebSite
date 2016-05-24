@@ -1,0 +1,23 @@
+h2.title {font-size: 24px;font-weight: bold;margin: 30px 0 25px 0px;}
+.crumbs {padding-bottom: 10px;border-bottom: 1px solid #ededed;}
+.crumbs a.crumbs_nav_item{color: #333;font-size: 18px;}
+.crumbs a.blue{color:#2d6ac8;}
+.com_logo {vertical-align: middle;margin-right: 10px;width: 32px;height: 32px;}
+.seperate_line{color: #333;padding: 0 12px ;vertical-align: 1px;font-size: 18px;}
+.content {border: 1px solid #ededed;margin-top: 20px;}
+.form_group{margin:20px 20px 0px 20px; color: #333;font-size: 16px;}
+.form_label{float: left;width:65px;overflow: hidden;height: 54px;line-height: 54px;}
+.form_input{margin-left: 98px;width:493px;padding:10px;border:1px solid #ededed;height: 32px;line-height: 32px;display: block;}
+.avatar_upload{margin-left: 98px;}
+
+.upload_btn{position: relative;background-color: #ee8031;color: #fff;font-size: 18px;height: 40px;width: 100px;text-align: center;line-height: 40px;display: block;cursor: pointer;}
+input[id="avatar_input"]{position: absolute;top:0;left:0;width:100px;height: 40px;filter: alpha(opacity=0);-moz-opacity: 0;opacity: 0;cursor: pointer;display: block;}
+.form_actions{text-align: center;margin: 60px 0px;}
+.btn{width:270px;height: 48px;line-height: 48px;font-size: 18px;}
+.btn_primary{color: #fff;}
+.btn_default{color: #666;background: none;border:none;display: inline-block;}
+.btn_default:hover{border:none;}
+.upload_btn:hover{background-color: #f59d5e;}
+.publisher_avatar{width:100px;height: 100px;}
+#popBox_warning .popBox_content{min-width: 250px;padding: 20px 50px 20px 20px}
+#pop_message_content{margin-left: 0;}

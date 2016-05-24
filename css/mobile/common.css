@@ -1,0 +1,150 @@
+/*公共部分*/
+*{margin:0;padding:0}
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+h1,h2,h3,h4{color: #333;}
+ol,ul{list-style:none;}
+:focus{outline:0}
+a{text-decoration:none;color: #2d6ac8;}
+a,img{border:0;}
+table {border-spacing: 0;border-collapse: collapse;max-width: 100%;background-color: transparent;empty-cells:show;}
+em,i{font-style:normal}
+button::-moz-focus-inner,input[type=reset]::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=submit]::-moz-focus-inner,input[type=file]>input[type=button]::-moz-focus-inner{border:0;padding:0}
+html,body{height:100%;width:100%;font-family:microsoft yahei,"微软雅黑";color: #999999;line-height: 1.4;font-size: 14px;}
+a,img,input,button,select,textarea{outline: none;border:none;}
+button, button:active, button:focus, button:hover{border-color: transparent;}
+button,input[type=button], input[type=reset], input[type=submit] {cursor: pointer;}
+button[disabled], html input[disabled] {cursor: default;border:none;background:none;}
+input,textarea{-webkit-appearance: none;}
+.clear{clear: both;}
+fieldset {border: none;}
+.hide{display: none;}
+.left{float:left;}
+.right{float:right;}
+.clearfix:after{content:"";height:0;display:block;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+/*回到顶部*/
+a.icon_top{width:50px;height:50px;display: block;background:url(../../images/back_top.png);text-indent: -9999px;background-size: 100%;position: fixed;bottom: 30px;right: 10px;display: none;z-index:99}
+.icon{background:url(../../images/icon_article.png) no-repeat;display: inline-block;background-size:50px;vertical-align: middle; }
+/*正在加载中*/
+.loading{text-align: center;width:100%;margin: 4.375%  0px;font-size: 2.2rem;}
+.header{height: 50px;background: #2d6ac8;position: relative;width:100%;}
+a.back{background: #10489e;width:30px;height: 30px;padding:10px;background-size:100%;position: absolute;left: 0px;top:0px;}
+a.back img{width:90%;margin-top: 5%;margin-left: 5%;}
+img.logo{width: 80px;height: auto;display: block;margin:0 auto;padding-top: 5px;}
+h1{font-size: 22px;color: #fff;line-height: 50px;position: absolute;right: 10px;top:0;}
+/*新加footer*/
+.footer {margin-top: 4.5%;padding: 3.9% 10px 3.9% 10px;background: #313131;}
+.footer_content {position: relative;}
+.flooter_logo {width: 28%;}
+.footer_email {color: #999;font-size: 2.4rem;position: absolute;right: 10px;bottom: 0;}
+/*弹出框*/
+.popBox{position: fixed;top:0;bottom: 0;right: 0;left: 0;z-index: 100;display: none;width:100%;height: 100%;}
+.popBox .shadeBox{position: fixed;left: 0;top:0;width:100%;height: 100%;background-color: rgba(0,0,0,0.5); }
+.popBox .pop_content{position: absolute;bottom: 0;left: 0;right:0;background-color: #fff;max-height: 100%;max-width: 100%;overflow: auto;}
+.popBox_title{background-color:#f6f6f6;color: #999;font-size: 18px;line-height: 36px;height: 36px; padding:0 10px;font-weight: bold;}
+.pop_body{padding:10px;}
+
+.btn{color: #fff;text-align: center;display: inline-block;border-radius:3px;white-space: nowrap;-webkit-user-select: none;-moz-user-select: none;-o-user-select: none;user-select: none;border: 1px solid transparent;}
+/*图标*/
+.icon{background-image: url(../../images/icon_detail.png);display: inline-block;vertical-align: middle; }
+.icon.clock_icon{background-position:-24px 0px;width:18px;height:18px;background-size: 150px;vertical-align: text-bottom;float: left;margin-left: -22px;}
+.icon.address_icon{background-position:0px -25px;width:18px;height:21px;background-size: 150px;float: left;margin-left: -22px;}
+.icon.people_icon{background-position:-49px 0px;width:18px;height:18px;background-size: 150px;float: left;margin-left: -22px;}
+i.lock_icon{background-position: 0 -53px;width: 16px;height: 20px;background-size: 160px;margin-right: 5px;vertical-align: -4px}
+i.checked_triangle_icon{position: absolute;bottom: 0;right: 0;width:22px;height:22px ;background-position: -25px -68px;background-size: 200px;}
+.need_icon{width:7px;height: 7px;background-position:-32px -1px ;background-size: 66px;margin-left: 3px;vertical-align:super ;}
+.radio_icon {background-position: -57px -40px;width: 21px;height: 22px;background-size:125px;}
+.radio_icon:checked{background-position: -34px -40px;}
+.square_icon_check {background-position:-100px 1px ;}
+.square_icon_check, .square_icon_checked {-webkit-appearance: none;-webkit-user-select: none;vertical-align: -6px;margin-right: 3px;width:22px;height: 22px;background-size:125px;}
+.square_icon_checked{background-position:-76px 1px ;}
+.close_btn{background-position:-30px -33px;background-size:180px;width:20px;height: 20px;text-indent: -9999px;position: absolute;right: 10px;top:8px;}
+/*********************************************黑色背景提示********************************************/
+#tips {position: fixed;bottom: 10%;left: 0;right: 0;margin: 0 auto;text-align: center;animation: opacity 5s ease-in-out 0s 1 alternate;-webkit-animation: opacity 5s ease-in-out 0s 1 alternate;-moz-animation: opacity 5s ease-in-out 0s 1 alternate;-o-animation: opacity 5s ease-in-out 0s 1 alternate;opacity: 0;z-index: -1; }
+
+#tips .words {display: inline-block;padding: 5px 8px;background: rgba(0, 0, 0, 0.8);color: #fff;border-radius: 5px;font-size: 12px;max-width: 75%;margin: 0 auto; }
+
+@keyframes opacity {
+  0% {
+    z-index: 9999;
+    opacity: 0; }
+  10% {
+    z-index: 9999;
+    opacity: 0.8; }
+  20% {
+    z-index: 9999;
+    opacity: 1; }
+  80% {
+    z-index: 9999;
+    opacity: 1; }
+  90% {
+    z-index: 9999;
+    opacity: 0.8; }
+  100% {
+    opacity: 0;
+    z-index: -1; } 
+}
+@-webkit-keyframes opacity {
+  0% {
+    z-index: 9999;
+    opacity: 0; }
+  10% {
+    z-index: 9999;
+    opacity: 0.8; }
+  20% {
+    z-index: 9999;
+    opacity: 1; }
+  80% {
+    z-index: 9999;
+    opacity: 1; }
+  90% {
+    z-index: 9999;
+    opacity: 0.8; }
+  100% {
+    z-index: -1; } 
+}
+@-moz-keyframes opacity {
+  0% {
+    z-index: 9999;
+    opacity: 0; }
+  10% {
+    z-index: 9999;
+    opacity: 0.8; }
+  20% {
+    z-index: 9999;
+    opacity: 1; }
+  80% {
+    z-index: 9999;
+    opacity: 1; }
+  90% {
+    z-index: 9999;
+    opacity: 0.8; }
+  100% {
+    opacity: 0;
+    z-index: -1; } 
+}
+@-o-keyframes opacity {
+  0% {
+    z-index: 9999;
+    opacity: 0; }
+  10% {
+    z-index: 9999;
+    opacity: 0.8; }
+  20% {
+    z-index: 9999;
+    opacity: 1; }
+  80% {
+    z-index: 9999;
+    opacity: 1; }
+  90% {
+    z-index: 9999;
+    opacity: 0.8; }
+  100% {
+    opacity: 0;
+    z-index: -1; } 
+}
+#tips .words{font-size: 14px;}
+
+
+
+

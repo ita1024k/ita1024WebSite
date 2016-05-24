@@ -1,0 +1,5 @@
+
+.table th a:hover{color:#000;}
+.table th a.asc{background:url(up.gif) right center no-repeat;padding-right:10px;color:#000}
+.table th a.desc{background:url(down.gif) right center no-repeat;padding-right:10px;color:#000}
+

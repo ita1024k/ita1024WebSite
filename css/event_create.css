@@ -1,0 +1,625 @@
+
+.icon-btn-success,.icon-btn-upload,.icon-btn-upload-grey,.icon-btn-upload-reload,.icon-copy,.icon-event-des-add,.icon-top-arrow,.icon-top-arrow-more {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: middle;
+	*display: inline;
+	*zoom: 1
+}
+
+.icon-btn-upload,.icon-btn-upload-reload {
+	vertical-align: -4px;
+	*vertical-align: 2px
+}
+
+.icon-event-label-add {
+	display: block
+}
+
+.icon-create-config {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.icon-event-ticket-arrow {
+	display: inline-block;
+	margin-right: 9px;
+	margin-left: 8px;
+	vertical-align: middle;
+	*display: inline;
+	*zoom: 1
+}
+
+.icon-ticket-add-primary,.icon-ticket-add-warning {
+	display: inline-block;
+	margin-right: 10px;
+	vertical-align: -4px;
+	*display: inline;
+	*zoom: 1
+}
+.icon-event-create-place {
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	cursor: pointer;
+	border: 1px solid transparent
+}
+
+.icon-event-create-place:hover {
+	border-color: #62b651
+}
+
+.icon-ticket-pause,.icon-ticket-start,.icon-ticket-undo,.icon-trash {
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	*display: inline;
+	*zoom: 1
+}
+
+
+
+
+.event-create-ticket {
+	margin-bottom: 10px;
+}
+
+.event-create-ticket {
+	width: 100%;
+	table-layout: fixed
+}
+
+.event-create-ticket strong {
+	font-weight: 400;
+	color: #ff4c00
+}
+
+.event-create-ticket .icon-create-config {
+	vertical-align: -6px;
+	*vertical-align: -16px
+}
+
+.event-create-ticket thead th div {
+	color: #a0a0a0;
+	background: #eee
+}
+
+.event-create-ticket thead .icon-event-ticket-alert {
+	vertical-align: -2px;
+	*vertical-align: 2px
+}
+
+.event-create-ticket th {
+	font-weight: 400;
+	padding: 0;
+	text-align: center
+}
+
+.event-create-ticket th div {
+	line-height: 48px;
+	position: relative;
+	height: 48px;
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #dcdcdc;
+	*height: 48px
+}
+
+.event-create-ticket th:first-child div {
+	border-left: 1px solid #dcdcdc
+}
+
+.event-create-ticket th input {
+	line-height: 1.42857143;
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	border: 1px solid transparent
+}
+
+.event-create-ticket th input:focus {
+	border-color: #62b651;
+	outline: 0
+}
+
+.event-create-ticket th input[disabled] {
+	color: #a0a0a0;
+	background: 0 0
+}
+
+.event-create-ticket th strong+input {
+	display: none
+}
+
+.event-create-ticket tbody .event-create-td-last span{
+	top: 16px;
+	right: 0;
+	width: 1px;
+	height: 19px;
+}
+.event-create-ticket th div:after {
+	top: 16px;
+	right: 0;
+	width: 1px;
+	height: 19px;
+	content: '';
+	background: #e5e5e5
+}
+.event-create-ticket tbody {
+	border: 1px solid #dcdcdc
+}
+
+.event-create-ticket tbody th .event-create-td-last,.event-create-ticket tbody th div,.event-create-ticket tbody th:first-child div {
+	border: none
+}
+
+.event-create-ticket tbody .event-create-td-last span {
+	position: relative;
+	float: left;
+	width: 50%;
+	*width: 48%
+}
+
+.event-create-ticket tbody .event-create-td-last span:only-child {
+	width: 100%
+}
+
+.event-create-ticket tbody .event-create-td-last span:only-child:after {
+	content: none
+}
+
+.event-create-ticket .event-create-td-last {
+	height: 48px;
+	border-right: 1px solid #dcdcdc
+}
+
+.event-create-ticket .event-create-td-last:after {
+	content: none
+}
+
+.event-create-ticket-edit tbody {
+	border-color: #62b651
+}
+
+.event-create-ticket-edit tbody th .event-create-td-last,.event-create-ticket-edit tbody th div,.event-create-ticket-edit tbody th:first-child div {
+	border-bottom: 1px solid #e5e5e5
+}
+
+.event-create-ticket-edit tbody .event-create-td-last {
+	position: relative
+}
+
+.event-create-ticket-edit tbody .event-create-td-last:before {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: -1px;
+	left: -1px;
+	content: '';
+	border-left: 1px solid #dcdcdc;
+	background-image: -webkit-linear-gradient(top,#dadada 0,#fffeff 100%);
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#dadada),to(#fffeff));
+	background-image: -o-linear-gradient(top,#dadada 0,#fffeff 100%);
+	background-image: linear-gradient(to bottom,#dadada 0,#fffeff 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdadada', endColorstr='#fffffeff', GradientType=0)
+}
+
+.event-create-ticket-edit .event-create-ticket-config {
+	display: table-row;
+	*display: block
+}
+
+.event-create-ticket-edit .icon-create-config,.event-create-ticket-edit .icon-ticket-undo,.event-create-ticket-edit .icon-trash {
+	position: relative;
+	z-index: 1
+}
+
+.event-create-ticket-edit th input {
+	border-color: #e5e5e5
+}
+
+.event-create-ticket-edit th strong+input {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.event-create-ticket-edit .event-create-ticket-promocode em,.event-create-ticket-edit .event-create-ticket-range em {
+	display: none
+}
+
+.event-create-ticket-edit .event-create-ticket-promocode input,.event-create-ticket-edit .event-create-ticket-promocode span,.event-create-ticket-edit .event-create-ticket-range input,.event-create-ticket-edit .event-create-ticket-range span {
+	display: inline-block;
+	*display: inline;
+	*zoom: 1
+}
+
+.event-create-ticket-edit-toggle,.event-create-ticket-edit-toggle+span {
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-o-user-select: none
+}
+
+.event-create-ticket-promocode,.event-create-ticket-range {
+	color: #a0a0a0
+}
+
+.event-create-ticket-promocode em,.event-create-ticket-range em {
+	font-style: normal
+}
+
+.event-create-ticket-promocode em+i,.event-create-ticket-range em+i {
+	margin-right: 0;
+	margin-left: 5px
+}
+
+.event-create-ticket-promocode>i,.event-create-ticket-range>i {
+	font-style: normal;
+	margin-right: 6px
+}
+
+.event-create-ticket-promocode span,.event-create-ticket-range span {
+	display: none;
+	margin-left: 10px;
+	vertical-align: top
+}
+
+.event-create-ticket-promocode input,.event-create-ticket-range input {
+	display: none;
+	width: 80px
+}
+
+.event-create-ticket-promocode input+em,.event-create-ticket-range input+em {
+	margin-left: -6px
+}
+
+.event-create-ticket-config {
+	display: none
+}
+
+.event-create-ticket-config form {
+	padding-top: 18px;
+	padding-right: 8px;
+	padding-left: 8px
+}
+
+.event-create-ticket-config form>div {
+	margin-bottom: 20px
+}
+
+.event-create-ticket-config label {
+	width: 66px
+}
+
+.event-create-ticket-config label+label {
+	width: auto
+}
+
+.event-create-ticket-config .icon-event-create-alert {
+	margin-left: 3px
+}
+
+.event-create-ticket-config .pull-right .bootstrap-select {
+	width: 120px;
+	margin: 0 10px
+}
+
+.event-create-ticket-config .bootstrap-select {
+	width: 124px;
+	padding-left: 44px
+}
+
+#event_ticket_fee_prompt:hover {
+	cursor: default
+}
+
+.event-create-ticket-refund {
+	margin-top: 10px;
+	padding-top: 25px;
+	padding-bottom: 40px;
+	padding-left: 100px;
+	color: #a0a0a0;
+	border: 1px solid #62b651;
+	background: #fff
+}
+
+.event-create-ticket-refund>label {
+	position: absolute;
+	margin-top: 3px;
+	margin-left: -80px;
+	color: #333
+}
+
+.event-create-ticket-refund>div {
+	margin-bottom: 20px
+}
+
+.event-create-ticket-refund>div>p,.event-create-ticket-refund>div>p+a {
+	padding-left: 34px
+}
+
+.event-create-ticket-refund>div div {
+	line-height: 26px;
+	overflow: hidden;
+	*zoom: 1
+}
+
+.event-create-ticket-refund>div label {
+	float: left;
+	width: 160px;
+	margin-top: 3px;
+	margin-right: 50px
+}
+
+#event-create-ticket-refund .modal-dialog,.event-create-ticket-refund .form-control {
+	width: 800px
+}
+
+.event-create-ticket-refund p {
+	line-height: 26px;
+	margin-bottom: 0
+}
+
+.event-create-ticket-refund .icon-event-create-alert {
+	margin-right: 12px;
+	margin-left: 0
+}
+
+#event-create-ticket-refund .form-control {
+	width: 595px
+}
+
+#event-create-ticket-refund .event-create-ticket-refund {
+	padding-right: 50px;
+	padding-bottom: 10px;
+	padding-left: 130px;
+	border: none
+}
+
+#event-create-ticket-refund .text-center {
+	margin-top: 20px
+}
+
+icon-event-create-place {
+	width: 33px;
+	height: 34px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -129px 0
+}
+
+.icon-btn-upload,.icon-btn-upload-reload {
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	height: 21px
+}
+
+.icon-btn-upload {
+	width: 20px;
+	background-position: -105px -41px
+}
+
+.icon-btn-upload-reload {
+	width: 22px;
+	background-position: -164px 0
+}
+
+.icon-event-label-add {
+	width: 28px;
+	height: 28px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -47px -41px
+}
+
+.icon-close {
+	width: 18px;
+    height: 18px;
+    background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+    background-position: -522px 0;
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+}
+.icon-close-lg,.icon-close-lg:focus,.icon-close-lg:hover {
+	width: 16px;
+	height: 16px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -554px 0
+}
+
+.icon-create-config {
+	width: 20px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -457px -23px
+}
+
+.event-admin-account-list .icon-create-config:hover,.event-create-org-card .icon-create-config:hover,.event-create-ticket-edit-toggle:hover .icon-create-config {
+	width: 20px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -457px -45px
+}
+
+.event-admin-account-list .icon-create-config:active,.event-create-org-card .icon-create-config:active,.event-create-ticket-edit .event-create-ticket-edit-toggle:hover .icon-create-config,.event-create-ticket-edit .icon-create-config {
+	width: 20px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -478px 0
+}
+
+.form-group-date .bootstrap-select:before {
+	width: 20px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -479px -22px
+}
+
+.icon-event-ticket-arrow {
+	width: 33px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -479px -44px
+}
+
+.icon-ticket-add-primary,.icon-ticket-add-warning {
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	width: 20px;
+	height: 20px
+}
+
+.icon-ticket-add-primary {
+	background-position: -500px 0
+}
+
+.icon-ticket-add-warning {
+	background-position: -501px -22px
+}
+
+.icon-payment-selected {
+	width: 26px;
+	height: 26px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -77px -41px
+}
+
+.icon-btn-upload-grey {
+	width: 19px;
+	height: 20px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -514px -44px
+}
+
+.icon-trash {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -188px 0
+}
+
+.event-create-ticket-edit-toggle+span:hover .icon-trash,.icon-trash:hover {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -190px -23px
+}
+
+.event-create-ticket-edit-toggle+span:active .icon-trash,.icon-trash:active {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -190px -46px
+}
+
+.icon-ticket-undo {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -211px 0
+}
+
+.event-create-ticket-edit-toggle+span:hover .icon-ticket-undo,.icon-ticket-undo:hover {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -213px -23px
+}
+
+.event-create-ticket-edit-toggle+span:active .icon-ticket-undo,.icon-ticket-undo:active {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -213px -46px
+}
+
+.icon-ticket-pause {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -234px 0
+}
+
+.event-create-ticket-edit-toggle+span:hover .icon-ticket-pause,.icon-ticket-pause:hover {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -236px -23px
+}
+
+.event-create-ticket-edit-toggle+span:active .icon-ticket-pause,.icon-ticket-pause:active {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -236px -46px
+}
+
+.icon-ticket-start {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -257px 0
+}
+
+.event-create-ticket-edit-toggle+span:hover .icon-ticket-start,.icon-ticket-start:hover {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -259px -23px
+}
+
+.event-create-ticket-edit-toggle+span:active .icon-ticket-start,.icon-ticket-start:active {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -259px -46px
+}
+
+.icon-trash-white {
+	width: 21px;
+	height: 21px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -280px 0
+}
+
+.icon-top-arrow-more,.open .icon-top-arrow-more {
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	width: 17px;
+	height: 9px
+}
+
+.icon-top-arrow-more {
+	background-position: -164px -23px
+}
+
+.open .icon-top-arrow-more {
+	background-position: -535px -34px
+}
+
+.icon-top-arrow {
+	width: 13px;
+	height: 7px;
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	background-position: -554px -18px
+}
+
+.icon-btn-address,.icon-btn-age,.icon-btn-attachment,.icon-btn-blood,.icon-btn-calendar,.icon-btn-check,.icon-btn-company,.icon-btn-department,.icon-btn-educational,.icon-btn-income,.icon-btn-marry,.icon-btn-mouse,.icon-btn-multi-line,.icon-btn-number-input,.icon-btn-office,.icon-btn-option,.icon-btn-other,.icon-btn-select,.icon-btn-sex,.icon-btn-single-line {
+	background-image: url(sprite/create_bg.32.png?max_age=19830212&d=20151104100916);
+	width: 23px;
+	height: 21px
+}
+
+.icon-btn-address {
+	background-position: -282px -23px
+}
+
+.icon-btn-age {
+	background-position: -282px -46px
+}
+
+.icon-btn-attachment {
+	background-position: -303px 0
+}
+
